@@ -30,7 +30,7 @@ fun main(args: Array<String>) {
     println(result) // (1, 2, 3, 4, 5, 6)
 
     val person = Person("doo")
-    person.getName() // 내부 함수가 있으면 확장 함수가 호출되지 않고 내부 함수가 동작
+    person.getMyName() // 내부 함수가 있으면 확장 함수가 호출되지 않고 내부 함수가 동작
 
     var str = "doo" myPlus "123"
 }
@@ -44,12 +44,12 @@ infix fun String.myPlus(pther: String): String {
 
 class Person(val name: String) {
     //내부 함수
-    fun getName(): String {
+    fun getMyName(): String {
         return this.name
     }
 }
 
 // 확장함수 클래스명.함수명
-fun Person.getName(): String {
+fun Person.getMyName(): String {
     return this.name
 }

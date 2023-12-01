@@ -65,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.Ch04_01Kt">
     <configuration name="Ch03_01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch02.Ch03_01Kt" />
       <module name="kotlin-in-action.main" />
@@ -73,8 +73,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ch04_01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_04.Ch04_01Kt" />
+      <module name="kotlin-in-action.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Ch04_01Kt" />
         <item itemvalue="Kotlin.Ch03_01Kt" />
       </list>
     </recent_temporary>
@@ -89,7 +97,7 @@
       <updated>1699438055375</updated>
       <workItem from="1699438056699" duration="7067000" />
       <workItem from="1700371957475" duration="699000" />
-      <workItem from="1700648603941" duration="4579000" />
+      <workItem from="1700648603941" duration="7944000" />
     </task>
     <servers />
   </component>
